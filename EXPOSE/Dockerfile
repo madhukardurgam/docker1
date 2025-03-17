@@ -1,4 +1,4 @@
 FROM almalinux:9
-RUN dnf install ngnix -y
+RUN dnf install nginx -y
 EXPOSE 80
 CMD ["sleep","100"]
